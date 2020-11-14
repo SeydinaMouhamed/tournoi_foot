@@ -1,0 +1,23 @@
+<?php
+    remplacement;
+    corner;
+    touche;
+    debutPMisTemps;
+    finPMisTemps;
+    debutSMisTemps;
+    finSMisTemps;
+    debutProlP1;
+    finProlP2;
+    tireaubut;
+    finMatch;
+    cartonR;
+    cartonJ;
+    but;
+    faute;
+    possession;
+    tirecadre;
+    tirepoto;
+    tirebarre;
+    passe;
+    passeDecisif
+?>

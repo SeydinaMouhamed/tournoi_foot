@@ -1,0 +1,11 @@
+<?php
+session_start();
+if(isset($_GET["sesToLogOut"],$_SESSION[$_GET["sesToLogOut"]])){
+    unset($_SESSION[$_GET["sesToLogOut"]]);
+    if(isset($_SESSION["pseudo"]))
+    unset($_SESSION["pseudo"]);
+}else{
+    session_destroy();
+}
+header("Location:../");
+?>
